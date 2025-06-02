@@ -235,8 +235,8 @@ TextureImporter:
       name: ui_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
+        x: 32
+        y: 352
         width: 32
         height: 32
       alignment: 0
@@ -257,8 +257,8 @@ TextureImporter:
       name: ui_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 320
+        x: 64
+        y: 352
         width: 32
         height: 32
       alignment: 0
@@ -271,50 +271,6 @@ TextureImporter:
       bones: []
       spriteID: aa64ec55d64605649a0a7788f3c762c8
       internalID: -1696419427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9eeb7e8e38f7194fab9390f45df29e0
-      internalID: 15469535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ec453b6edc7d4d4fb8c4cd191c5a3f7
-      internalID: -1603301909
       vertices: []
       indices: 
       edges: []
@@ -341,8 +297,6 @@ TextureImporter:
       ui_spritesheet_5: -1176195765
       ui_spritesheet_6: 1476429223
       ui_spritesheet_7: -1696419427
-      ui_spritesheet_8: 15469535
-      ui_spritesheet_9: -1603301909
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
