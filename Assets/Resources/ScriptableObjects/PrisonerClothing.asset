@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe085a148fca4ee3b8727fc7f46aea6f, type: 3}
+  m_Name: PrisonerClothing
+  m_EditorClassIdentifier: 
+  itemName: Ropa de prisionero
+  description: Ropa de prisionero
+  category: 2
+  icon: {fileID: -859913894, guid: 259f2665001051d4d909ef85322ddcfd, type: 3}
+  isInUse: 1
+  defense: 2
+  durability: 100
+  sprite: {fileID: -859913894, guid: 259f2665001051d4d909ef85322ddcfd, type: 3}
