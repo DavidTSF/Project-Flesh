@@ -73,13 +73,13 @@ public class Inventory : MonoBehaviour
         return new List<InventoryItem>(items);
     }
     
-    // get items that are keys
+    
     public List<InventoryItem> GetKeyItems()
     {
         return items.FindAll(i => i.itemData is KeySO);
     }
     
-    // add a list of items to the inventory
+    
     public void AddItems(List<InventoryItem> itemsToAdd)
     {
         foreach (var item in itemsToAdd)

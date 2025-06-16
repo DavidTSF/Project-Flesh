@@ -52,7 +52,6 @@
     <Compile Include="Assets\ThirdParty\Recyclable Scroll Rect\Main\Scripts\Interfaces\IRecyclableScrollRectDataSource.cs" />
     <Compile Include="Assets\ThirdParty\Recyclable Scroll Rect\Demo\Scripts\RecyclableScrollerDemo.cs" />
     <Compile Include="Assets\Code\Entity\GridMovementV2.cs" />
-    <Compile Include="Assets\Code\old\GridMovementOld.cs" />
     <Compile Include="Assets\Code\Entity\Enemy\Enemy.cs" />
     <Compile Include="Assets\ThirdParty\Recyclable Scroll Rect\Main\Scripts\Recycling System\HorizontalRecyclingSystem.cs" />
     <Compile Include="Assets\Code\Interactables\IInteractor.cs" />
@@ -77,19 +76,14 @@
     <Compile Include="Assets\Code\Item\SO\OtherItemSO.cs" />
     <Compile Include="Assets\Code\Interactables\Items\ObjectItem.cs" />
     <Compile Include="Assets\Code\Game\GameManager.cs" />
-    <Compile Include="Assets\Code\UI\Menu\MenuItem.cs" />
-    <Compile Include="Assets\Code\Entity\Player\PlayerRenderer.cs" />
     <Compile Include="Assets\ThirdParty\Recyclable Scroll Rect\Main\Scripts\Recycling System\VerticalRecyclingSystem.cs" />
     <Compile Include="Assets\Code\Game\CombatSelectorController.cs" />
     <Compile Include="Assets\ThirdParty\Recyclable Scroll Rect\Main\Scripts\Interfaces\ICell.cs" />
     <Compile Include="Assets\Code\Interactables\Collidables\LockedDoor.cs" />
     <Compile Include="Assets\Code\Item\Base\ItemWeapon.cs" />
-    <Compile Include="Assets\Code\old\PlayerControllerOld.cs" />
-    <Compile Include="Assets\Code\old\DoorOld.cs" />
     <Compile Include="Assets\Code\Interactables\IInteractable.cs" />
     <Compile Include="Assets\Code\Item\Base\ItemKey.cs" />
     <Compile Include="Assets\Code\Map\VisionMaskManager.cs" />
-    <Compile Include="Assets\Code\old\LockedDoorOld.cs" />
     <Compile Include="Assets\Code\UI\InteractionUIManager.cs" />
     <Compile Include="Assets\Code\Game\Combat\ICombatTarget.cs" />
     <Compile Include="Assets\Code\Camera\CameraFollow.cs" />

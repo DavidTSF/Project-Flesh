@@ -22,7 +22,7 @@ public class CombatSelectorController : MonoBehaviour {
     private Vector2Int selectorPos;
     private float currentRange = 1f;
     private List<GameObject> rangeTiles = new();
-    private List<GameObject> lineTiles = new();                 // Para tiles de la línea
+    private List<GameObject> lineTiles = new();             
     private bool active = false;
 
     private bool canAcceptConfirm = false;
@@ -89,17 +89,6 @@ public class CombatSelectorController : MonoBehaviour {
     private void UpdateSelectorVisual() {
         selectorVisual.transform.position = gridMovement.GridToWorld(selectorPos);
     }
-
-    public void SetMovementInput(Vector2 input)
-    {
-        Vector2Int dir = Vector2Int.zero;
-        if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
-            dir = input.x > 0 ? Vector2Int.right : Vector2Int.left;
-        else if (Mathf.Abs(input.y) > 0)
-            dir = input.y > 0 ? Vector2Int.up : Vector2Int.down;
-
-        currentInput = dir;
-    }
     
     private void TryAttackAt(Vector2Int targetPos) {
         
@@ -112,7 +101,7 @@ public class CombatSelectorController : MonoBehaviour {
         
         
         if (target != null && target.TryGetComponent<ICombatTarget>(out var combatTarget)) {
-            combatTarget.TakeDamage(1); // Ajusta daño según arma
+            combatTarget.TakeDamage(1); 
             Debug.Log("Ataque exitoso a " + target.name);
         } else {
             Debug.Log("No hay objetivo en esa celda.");

@@ -46,8 +46,7 @@ public class EntityRenderer : MonoBehaviour
     {
         if (animator != null)
         {
-            animator.ResetTrigger("walk_trg"); // Opcional: puedes cambiarlo por SetBool si usas un parámetro booleano
-            //Debug.Log("🔁 Movimiento finalizado visualmente");
+            animator.ResetTrigger("walk_trg"); 
         }
     }
 }

@@ -27,7 +27,6 @@ public class MenuController : MonoBehaviour
     public Transform popupCanvasRoot;
 
     [Header("Referencias Combate")]
-    [SerializeField] private CombatSelectorController combatSelectorController;
     [SerializeField] private PlayerControllerV2 playerController;
 
     [Header("Prefab para minimenú de dirección")]
@@ -74,7 +73,6 @@ public class MenuController : MonoBehaviour
         equipIzqText = equipIzquierdaContainer.GetComponentInChildren<TextMeshProUGUI>();
         equipDerText = equipDerechaContainer.GetComponentInChildren<TextMeshProUGUI>();
         descriptionText = descriptionContainer.GetComponentInChildren<TextMeshProUGUI>();
-        combatSelectorController = FindFirstObjectByType<CombatSelectorController>();
         playerController = FindFirstObjectByType<PlayerControllerV2>();
     }
 

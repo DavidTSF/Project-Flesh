@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlayerEntity : MonoBehaviour, ICombatTarget
 {
+    
+    
     public bool CanBeDamaged()
     {
         throw new System.NotImplementedException();
